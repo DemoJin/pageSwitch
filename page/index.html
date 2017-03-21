@@ -19,7 +19,13 @@
     		<div><img src="images/4.jpg" /></div>
     		<div><img src="images/5.jpg" /></div>
         </div>
-    	<div id="navs"><a href="javascript:;" class="active"></a><a href="javascript:;"></a><a href="javascript:;"></a><a href="javascript:;"></a><a href="javascript:;"></a><a href="javascript:;"></a><a href="javascript:;"></a><a href="javascript:;"></a><a href="javascript:;"></a></div>
+        <div id="navs">
+         <a href="javascript:;" class="active"></a>
+         <a href="javascript:;"></a>
+         <a href="javascript:;"></a>
+         <a href="javascript:;"></a>
+         <a href="javascript:;"></a>
+        </div>        
         <select id="tssel">
             <option value="">选择切页效果</option>
             <option value="fade">fade</option>
@@ -173,7 +179,6 @@
         document.getElementById('tssel').onchange=function(){
         	location.href='?ts='+this.value;
         }
-
 
         var options=document.getElementById('tssel').options,
         	i=0,op;
