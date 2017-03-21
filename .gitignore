@@ -1,7 +1,2 @@
 .DS_Store
-node_modules/
-*.bat
-LICENSE
-all.css
-more
 _config.yml
